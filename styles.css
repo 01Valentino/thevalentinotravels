@@ -126,20 +126,21 @@ nav {
 }
 @media screen and (max-width: 500px) {
   .nav-logo h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .login-btn {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     margin-right: 0.2rem;
     border-radius: 1.3rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.3rem;
   }
   .sign-btn {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     border-radius: 1.3rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.3rem;
   }
 }
+
 @media screen and (min-width: 950px) {
   .nav-links {
     display: flex;
@@ -321,6 +322,11 @@ header {
 .d-btn {
   font-size: 1.1rem;
 }
+@media screen and (max-width: 500px) {
+  .destinations {
+    margin-top: 10rem;
+  }
+}
 @media screen and (min-width: 800px) {
   .destinations {
     margin-top: 0rem;
@@ -346,6 +352,7 @@ header {
 .choose h2 {
   line-height: 3.5rem;
   margin-top: -3rem;
+  overflow-wrap: break-word;
 }
 .choice-center {
   display: grid;
