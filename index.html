@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Valentino Travels</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="nav-center">
+        <!-- nav logo -->
+        <div class="nav-logo">
+          <h2>valentino<span>Travels</span></h2>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li><a href="#home"> home </a></li>
+          <li><a href="#destinations"> destinations </a></li>
+          <li><a href="#about"> about </a></li>
+          <li><a href="#contact"> contact </a></li>
+        </ul>
+        <!-- login snd sign up btns -->
+        <div class="logins">
+          <button class="btn login-btn">login</button>
+          <button class="btn sign-btn">sign up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <header class="hero">
+      <h1>discover your perfect getaway</h1>
+      <p>
+        Explore breathtaking destinations with our expertly crafted tours.
+        Luxury experiences tailored just for you.
+      </p>
+
+      <div class="input-box">
+        <input
+          type="search"
+          placeholder="Where do you want to go?"
+          class="search input"
+        />
+        <input type="date" class="date input" />
+        <select name="travel type" id="select">
+          <option value="">travel type</option>
+          <option value="">adventure</option>
+          <option value="">family</option>
+          <option value="">luxury</option>
+          <option value="">honeymoon</option>
+        </select>
+        <buttton class="btn search-btn">search</buttton>
+      </div>
+    </header>
+
+    <!-- destinations -->
+    <section class="destinations section-center" id="destinations">
+      <div class="section-title">
+        <h2>popular destinations</h2>
+        <p>
+          Explore our most sought-after travel destinations loved by thousands
+          of travelers worldwide.
+        </p>
+      </div>
+
+      <div class="destination-center">
+        <!-- single destination -->
+        <article class="destination">
+          <div class="d-img-container">
+            <img
+              src="./images/indonesia.avif"
+              alt="indonesia"
+              class="destination-img"
+            />
+          </div>
+          <div class="destination-info">
+            <h3>beijing, china</h3>
+            <p class="country">
+              <span><i class="fas fa-location-dot"></i></span> china
+            </p>
+            <p><span class="value">$1,299</span> / per person</p>
+            <div class="hr"></div>
+            <div class="d-footer">
+              <h5>
+                <span
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star-half-stroke"></i
+                ></span>
+                (124 reviews)
+              </h5>
+              <button class="btn d-btn">book now</button>
+            </div>
+          </div>
+        </article>
+        <!-- end of single destination -->
+        <!-- single destination -->
+        <article class="destination">
+          <div class="d-img-container">
+            <img
+              src="./images/greece.avif"
+              alt="greece"
+              class="destination-img"
+            />
+          </div>
+          <div class="destination-info">
+            <h3>santorini, greece</h3>
+            <p class="country">
+              <span><i class="fas fa-location-dot"></i></span> greece
+            </p>
+            <p><span class="value">$2,499</span> / per person</p>
+            <div class="hr"></div>
+            <div class="d-footer">
+              <h5>
+                <span
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                (89 reviews)
+              </h5>
+              <button class="btn d-btn">book now</button>
+            </div>
+          </div>
+        </article>
+        <!-- end of single destination -->
+        <!-- single destination -->
+        <article class="destination">
+          <div class="d-img-container">
+            <img
+              src="./images/japan.webp"
+              alt="japan"
+              class="destination-img"
+            />
+          </div>
+          <div class="destination-info">
+            <h3>tokyo, japan</h3>
+            <p class="country">
+              <span><i class="fas fa-location-dot"></i></span> japan
+            </p>
+            <p><span class="value">$3,199</span> / per person</p>
+            <div class="hr"></div>
+            <div class="d-footer">
+              <h5>
+                <span
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-regular fa-star"></i
+                ></span>
+                (60 reviews)
+              </h5>
+              <button class="btn d-btn">book now</button>
+            </div>
+          </div>
+        </article>
+        <!-- end of single destination -->
+      </div>
+    </section>
+
+    <!-- choose us -->
+    <section class="section-center choose" id="about">
+      <div class="section-title">
+        <h2>why choose valentinoTravels</h2>
+        <p>
+          We go above and beyond to make your travel experience unforgettable.
+        </p>
+      </div>
+      <!-- choice center -->
+      <div class="choice-center">
+        <!-- single choice -->
+        <article class="choice">
+          <i class="fa-solid fa-earth-americas choice-icon"></i>
+          <h3>150+ destinations</h3>
+          <p>
+            Explore our extensive collection of hand-picked destinations across
+            all continents.
+          </p>
+        </article>
+        <!-- end of single choice -->
+        <!-- single choice -->
+        <article class="choice">
+          <i class="fa-solid fa-hand-holding-dollar choice-icon"></i>
+          <h3>best price guarantee</h3>
+          <p>
+            We promise the best rates for all our tours. found a better price?
+            We'll match it!
+          </p>
+        </article>
+        <!-- end of single choice -->
+        <!-- single choice -->
+        <article class="choice">
+          <i class="fa-solid fa-user-shield choice-icon"></i>
+          <h3>trust & safety</h3>
+          <p>
+            Your safety is our priority. All our partners are carefully vetted
+            for quality.
+          </p>
+        </article>
+        <!-- end of single choice -->
+        <!-- single choice -->
+        <article class="choice">
+          <i class="fa-solid fa-headset choice-icon"></i>
+          <h3>24/7 support</h3>
+          <p>
+            Our travel experts are available round the clock to assist you
+            anytime.
+          </p>
+        </article>
+        <!-- end of single choice -->
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="forms section-center">
+      <div class="form-container">
+        <div class="section-title form-title">
+          <h2>get travel inspiration</h2>
+          <p>
+            Subscribe to our newsletter and receive exclusive deals, travel
+            tips, and destination inspiration straight to your inbox.
+          </p>
+        </div>
+        <div class="form-footer">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="form-input"
+          />
+          <button class="form-btn">subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-center">
+        <!-- single contact -->
+        <div class="contact">
+          <h4>valentinoTravels</h4>
+          <div class="underline"></div>
+          <p>
+            Making dream vacations a reality since 2010. We specialize in
+            creating unforgettable travel experiences tailored to your
+            preferences.
+          </p>
+
+          <!-- social links -->
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-tiktok social-icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of single contsct -->
+        <!-- single contact -->
+        <div class="contact">
+          <h4>quick links</h4>
+          <div class="underline"></div>
+          <!-- links -->
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">destinations</a></li>
+              <li><a href="#">special offers</a></li>
+              <li><a href="#">blog</a></li>
+              <li>
+                <a href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of single contsct -->
+        <!-- single contact -->
+        <div class="contact">
+          <h4>support</h4>
+          <div class="underline"></div>
+          <!-- links -->
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">FAQS</a></li>
+              <li><a href="#">booking conditions</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li>
+                <a href="#">cookie policy</a>
+              </li>
+              <li><a href="#">terms of service</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of single contsct -->
+        <!-- single contact -->
+        <div class="contact">
+          <h4>contact us</h4>
+          <div class="underline"></div>
+          <div class="contact-info">
+            <span><i class="fas fa-location-dot contact-icon"></i></span>
+            <p class="first">001 the valentino street, Suite 010, Abuja</p>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-phone contact-icon"></i>
+            <p>+234 906 856 5956</p>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p>valentinoTravels@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="hr footer-hr"></div>
+      <p class="copyright">
+        © 2025 ValentinoTravels. All rights reserved | All designed by The
+        Valentino
+      </p>
+    </footer>
+
+    <!-- loader -->
+    <div class="loader">
+      <div class="plane">
+        <i class="fa-solid fa-plane-departure"></i>
+      </div>
+    </div>
+
+    <!-- back to top btn -->
+    <button class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
